@@ -1,0 +1,73 @@
+17:54:36.570 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest ********* Finishing TC008_EndToEndTest test **********
+17:54:36.652 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest *****************Initializing page objects in @BeforeMethod***********************
+17:54:36.664 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Page objects initialized successfully
+17:54:36.673 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest ******** Starting TC008_EndToEndTest *********
+17:54:36.674 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Searching for Product: blouse
+17:54:38.226 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product search completed
+17:54:39.192 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product Found: blouse
+17:54:40.281 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product selected from Search Result Page: blouse
+17:54:40.283 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Selecting size: L and quantity: 1
+17:54:41.900 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product added to cart: blouse
+17:54:42.617 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product successfully Added to the Cart
+17:54:43.511 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Clicked on Proceed to checkout from the Add to Cart 
+17:54:43.687 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Unit price: 27.0
+17:54:43.688 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Shipping price: 7.0
+17:54:43.688 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Total actual price: 34.0
+17:54:43.688 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Expected Total price: 34.0
+17:54:43.688 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Total Price successfully validated
+17:54:44.918 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Proceed to checkout after confirming order to cart 
+17:54:46.457 [main] ERROR testCases.TC008_PlaceOrderEndToEndTest Error on Login Page: Authentication failed.
+17:54:47.163 [main] INFO  pageObjects.AddToCartPage Cart emptied successfully.
+17:54:47.163 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Cart has been emptied successfully
+17:54:47.168 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Attempting to capture screenshot...
+17:54:47.405 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Screenshot captured at: C:\workspace\Store_Ecom_Project\screenshots\placeOrderEndToEndTest_20240927055447.png
+17:54:47.444 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest *****************Initializing page objects in @BeforeMethod***********************
+17:54:47.530 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Page objects initialized successfully
+17:54:47.556 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest ******** Starting TC008_EndToEndTest *********
+17:54:47.557 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Searching for Product: blouse
+17:54:48.786 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product search completed
+17:54:49.832 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product Found: blouse
+17:54:51.023 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product selected from Search Result Page: blouse
+17:54:51.027 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Selecting size: L and quantity: 3
+17:54:52.443 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product added to cart: blouse
+17:54:53.120 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product successfully Added to the Cart
+17:54:54.145 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Clicked on Proceed to checkout from the Add to Cart 
+17:54:54.322 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Unit price: 27.0
+17:54:54.322 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Shipping price: 7.0
+17:54:54.322 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Total actual price: 88.0
+17:54:54.322 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Expected Total price: 88.0
+17:54:54.322 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Total Price successfully validated
+17:54:55.413 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Proceed to checkout after confirming order to cart 
+17:54:57.051 [main] ERROR testCases.TC008_PlaceOrderEndToEndTest Error on Login Page: Invalid email address.
+17:54:57.613 [main] INFO  pageObjects.AddToCartPage Cart emptied successfully.
+17:54:57.613 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Cart has been emptied successfully
+17:54:57.616 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Attempting to capture screenshot...
+17:54:57.813 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Screenshot captured at: C:\workspace\Store_Ecom_Project\screenshots\placeOrderEndToEndTest_20240927055457.png
+17:54:57.830 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest *****************Initializing page objects in @BeforeMethod***********************
+17:54:57.834 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Page objects initialized successfully
+17:54:57.838 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest ******** Starting TC008_EndToEndTest *********
+17:54:57.839 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Searching for Product: blouse
+17:54:59.163 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product search completed
+17:55:00.168 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product Found: blouse
+17:55:01.254 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product selected from Search Result Page: blouse
+17:55:01.254 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Selecting size: L and quantity: 0
+17:55:02.618 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product added to cart: blouse
+17:55:03.299 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest NULL QUANTITY:  Message Displayed 
+17:55:03.299 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Entered Invalid Quantity: 0
+17:55:05.488 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Attempting to capture screenshot...
+17:55:05.686 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Screenshot captured at: C:\workspace\Store_Ecom_Project\screenshots\placeOrderEndToEndTest_20240927055505.png
+17:55:05.694 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest *****************Initializing page objects in @BeforeMethod***********************
+17:55:05.706 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Page objects initialized successfully
+17:55:05.713 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest ******** Starting TC008_EndToEndTest *********
+17:55:05.713 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Searching for Product: blouse
+17:55:06.772 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product search completed
+17:55:07.783 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product Found: blouse
+17:55:08.947 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product selected from Search Result Page: blouse
+17:55:08.947 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Selecting size: L and quantity: -2
+17:55:10.564 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product added to cart: blouse
+17:55:16.066 [main] ERROR pageObjects.AddToCartPage Null Quantity Message Did not display: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[@class='fancybox-error']' (tried for 5 second(s) with 500 milliseconds interval)
+17:55:16.146 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest **BUG REPORT** Attempted to add product with invalid quantity: -2
+17:55:16.914 [main] INFO  pageObjects.AddToCartPage Cart emptied successfully.
+17:55:16.916 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Attempting to capture screenshot...
+17:55:17.117 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Screenshot captured at: C:\workspace\Store_Ecom_Project\screenshots\placeOrderEndToEndTest_20240927055516.png
+17:55:17.741 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest ====================== Browser closed successfully ==============================

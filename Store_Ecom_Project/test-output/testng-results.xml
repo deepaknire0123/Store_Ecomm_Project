@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="1" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-27T17:53:40 IST" name="Suite" finished-at="2024-09-27T17:55:17 IST" duration-ms="97083">
+    <groups>
+      <group name="regression">
+        <method signature="TC008_PlaceOrderEndToEndTest.placeOrderEndToEndTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" name="placeOrderEndToEndTest" class="testCases.TC008_PlaceOrderEndToEndTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-09-27T17:53:40 IST" name="Test" finished-at="2024-09-27T17:55:17 IST" duration-ms="97083">
+      <class name="testCases.TC008_PlaceOrderEndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:53:41 IST" name="setup" finished-at="2024-09-27T17:53:50 IST" duration-ms="8779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:53:59 IST" name="initialize" finished-at="2024-09-27T17:53:59 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="placeOrderEndToEndTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:53:59 IST" name="placeOrderEndToEndTest" data-provider="placeOrderProductDetail" finished-at="2024-09-27T17:54:36 IST" duration-ms="37109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test_123@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderEndToEndTest -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:54:36 IST" name="initialize" finished-at="2024-09-27T17:54:36 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="placeOrderEndToEndTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:54:36 IST" name="placeOrderEndToEndTest" data-provider="placeOrderProductDetail" finished-at="2024-09-27T17:54:47 IST" duration-ms="10500" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test_123@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test23]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login Page Error: Authentication failed.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login Page Error: Authentication failed.
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC008_PlaceOrderEndToEndTest.placeOrderEndToEndTest(TC008_PlaceOrderEndToEndTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderEndToEndTest -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:54:47 IST" name="initialize" finished-at="2024-09-27T17:54:47 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="placeOrderEndToEndTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:54:47 IST" name="placeOrderEndToEndTest" data-provider="placeOrderProductDetail" finished-at="2024-09-27T17:54:57 IST" duration-ms="10062" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test_12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login Page Error: Invalid email address.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login Page Error: Invalid email address.
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC008_PlaceOrderEndToEndTest.placeOrderEndToEndTest(TC008_PlaceOrderEndToEndTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderEndToEndTest -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:54:57 IST" name="initialize" finished-at="2024-09-27T17:54:57 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="placeOrderEndToEndTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:54:57 IST" name="placeOrderEndToEndTest" data-provider="placeOrderProductDetail" finished-at="2024-09-27T17:55:05 IST" duration-ms="7650" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test_123@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Null Quantity - Invalid Quantity]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Null Quantity - Invalid Quantity
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC008_PlaceOrderEndToEndTest.searchAndAddProductToCart(TC008_PlaceOrderEndToEndTest.java:168)
+at testCases.TC008_PlaceOrderEndToEndTest.placeOrderEndToEndTest(TC008_PlaceOrderEndToEndTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderEndToEndTest -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:55:05 IST" name="initialize" finished-at="2024-09-27T17:55:05 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="placeOrderEndToEndTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:55:05 IST" name="placeOrderEndToEndTest" data-provider="placeOrderProductDetail" finished-at="2024-09-27T17:55:16 IST" duration-ms="11208" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blouse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test_123@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed: Product added to cart with Negative/INVALID quantity.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed: Product added to cart with Negative/INVALID quantity.
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC008_PlaceOrderEndToEndTest.searchAndAddProductToCart(TC008_PlaceOrderEndToEndTest.java:175)
+at testCases.TC008_PlaceOrderEndToEndTest.placeOrderEndToEndTest(TC008_PlaceOrderEndToEndTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderEndToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC008_PlaceOrderEndToEndTest@71529963]" started-at="2024-09-27T17:55:17 IST" name="tearDown" finished-at="2024-09-27T17:55:17 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC008_PlaceOrderEndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

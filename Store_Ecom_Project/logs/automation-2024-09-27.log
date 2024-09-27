@@ -1,0 +1,62 @@
+17:53:58.642 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:58.714 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/_rels/workbook.xml.rels
+17:53:58.720 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:53:58.722 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+17:53:58.724 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+17:53:58.726 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+17:53:58.729 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet6.xml.rels
+17:53:58.731 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet7.xml.rels
+17:53:58.733 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /_rels/.rels
+17:53:58.761 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:58.762 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:58.763 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:58.825 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/_rels/workbook.xml.rels
+17:53:58.828 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:53:58.830 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+17:53:58.832 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+17:53:58.834 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+17:53:58.836 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet6.xml.rels
+17:53:58.838 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet7.xml.rels
+17:53:58.840 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /_rels/.rels
+17:53:58.864 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:58.864 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:58.865 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:58.933 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/_rels/workbook.xml.rels
+17:53:58.936 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:53:58.937 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+17:53:58.939 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+17:53:58.942 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet4.xml.rels
+17:53:58.950 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet6.xml.rels
+17:53:58.960 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /xl/worksheets/_rels/sheet7.xml.rels
+17:53:58.965 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection Parsing relationship: /_rels/.rels
+17:53:59.016 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:59.019 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:59.019 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+17:53:59.270 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest *****************Initializing page objects in @BeforeMethod***********************
+17:53:59.471 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Page objects initialized successfully
+17:53:59.505 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest ******** Starting TC008_EndToEndTest *********
+17:53:59.506 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Searching for Product: blouse
+17:54:01.807 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product search completed
+17:54:03.306 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product Found: blouse
+17:54:05.453 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product selected from Search Result Page: blouse
+17:54:05.453 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Selecting size: L and quantity: 2
+17:54:07.804 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product added to cart: blouse
+17:54:09.112 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product successfully Added to the Cart
+17:54:12.032 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Clicked on Proceed to checkout from the Add to Cart 
+17:54:12.344 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Unit price: 27.0
+17:54:12.344 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Shipping price: 7.0
+17:54:12.344 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Total actual price: 61.0
+17:54:12.345 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Expected Total price: 61.0
+17:54:12.345 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Total Price successfully validated
+17:54:15.011 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Proceed to checkout after confirming order to cart 
+17:54:21.177 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest No error, continuing to the login page.
+17:54:21.177 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Logged in Successfully
+17:54:22.462 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Proceeding from Address page to Shipping.
+17:54:22.655 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Agreed to the terms and conditions of the shipping 
+17:54:23.852 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Proceeding from Shipping page to Payment.
+17:54:24.793 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Selected payment method
+17:54:32.036 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Order confirmed from order summery
+17:54:32.117 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Product order validated successfully.
+17:54:33.772 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Order History Displayed
+17:54:35.241 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Navigated to Home Page
+17:54:36.570 [main] INFO  testCases.TC008_PlaceOrderEndToEndTest Logged Out of the Account
